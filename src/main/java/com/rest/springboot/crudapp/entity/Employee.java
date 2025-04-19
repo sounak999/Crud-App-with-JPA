@@ -8,7 +8,7 @@ public class Employee {
 
     // define fields
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
 
@@ -22,6 +22,9 @@ public class Employee {
     private String Email;
 
     // constructors
+
+    public Employee() {
+    }
 
     public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
