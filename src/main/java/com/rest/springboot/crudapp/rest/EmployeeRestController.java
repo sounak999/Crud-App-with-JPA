@@ -2,7 +2,6 @@ package com.rest.springboot.crudapp.rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.rest.springboot.crudapp.dao.EmployeeDAO;
 import com.rest.springboot.crudapp.entity.Employee;
 import com.rest.springboot.crudapp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
